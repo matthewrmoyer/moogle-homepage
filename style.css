@@ -1,5 +1,6 @@
 h1 {
 color: aqua;
+font-size: 100px;
 }
 
 ul {
@@ -10,7 +11,7 @@ ul {
 li {
 display: inline; 
 float: right;
-padding: 0px 10px 10px 10px;
+padding: 0px 5px 0px 0px;
 }
 
 a:link {
@@ -19,17 +20,33 @@ a:link {
 a:visited {
 	color: orange;
 }
+a:hover{
+	color: pink;
+}
+
+
 
 textarea, button {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: gray;
+	background-color: #696969;
 }
+
+textarea {
+	font-size: 25px;
+	color: #F08080;
+}
+
+button {
+	background-color: #F08080;
+}
+
 
 body {
 	background-color: black;
 }
+
 .footer {
 position: absolute;
 float: left;
@@ -46,7 +63,14 @@ bottom: 0;
 }
 
 .logo {
-display: block;
 text-align: center;
 }
+
+button {
+	font-size: 18px;
+}
+
+
+
+
 
