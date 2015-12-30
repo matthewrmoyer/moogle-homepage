@@ -1,0 +1,52 @@
+h1 {
+color: aqua;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0; 
+}
+li {
+display: inline; 
+float: right;
+padding: 0px 10px 10px 10px;
+}
+
+a:link {
+	color: red;
+}
+a:visited {
+	color: orange;
+}
+
+textarea, button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: gray;
+}
+
+body {
+	background-color: black;
+}
+.footer {
+position: absolute;
+float: left;
+bottom: 0;
+}
+.footer a:link {
+	color: green;
+}
+.footer a:visited {
+	color: green;
+}
+.footer a:hover, .footer a:active {
+	color: pink;
+}
+
+.logo {
+display: block;
+text-align: center;
+}
+
