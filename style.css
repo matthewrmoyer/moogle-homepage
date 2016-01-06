@@ -15,7 +15,7 @@ padding: 0px 5px 0px 0px;
 }
 
 a:link {
-	color: red;
+	color: orange;
 }
 a:visited {
 	color: orange;
@@ -34,7 +34,7 @@ textarea, button {
 }
 
 textarea {
-	font-size: 25px;
+	font-size: 30px;
 	color: #F08080;
 }
 
@@ -44,6 +44,8 @@ button {
 
 
 body {
+	background: radial-gradient(black, #293f50);
+	//backup for if browser doesnt suppport gradient
 	background-color: black;
 }
 
