@@ -51,7 +51,7 @@ body {
 
 .footer {
 position: absolute;
-float: left;
+right: 0;
 bottom: 0;
 }
 .footer a:link {
@@ -72,7 +72,50 @@ button {
 	font-size: 18px;
 }
 
+.cow {
+position: relative;
+float: right;
+}
 
+
+.slide {
+	margin: 0px;
+	width: 500px;
+	height: 150px;
+	background: grey;
+	position: absolute;
+	bottom: 0px;
+	left: -500px;
+	transition:.5s; 
+}
+.slide:hover{
+	left: 0;
+}
+
+.out {
+	display: inline-block;
+	background-color: black;
+	width: 15px;
+	height: 150px;
+	
+	color: grey;
+	position: absolute;
+	left: 500px;
+	bottom: 0px;
+	cursor: pointer;
+}
+.slide button {
+	display: block;
+	position: relative;
+	cursor: pointer;
+}
+.slide button:active{
+	position: relative;
+	top: 2px;
+}
+.slide button:focus {
+	outline: 0;
+}
 
 
 

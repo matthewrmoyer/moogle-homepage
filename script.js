@@ -19,6 +19,11 @@ $( document ).ready(function() {
         confirm( "Leave Moogle?" );
  
     });
+
+    $("#dark").click(function(event){
+        document.body.style.background = "black";
+    });
+
     $("button").click(function(event){
     	    $("div").fadeTo("slow",0);
             $("a").fadeTo("slow", 0);
@@ -31,7 +36,8 @@ $( document ).ready(function() {
 
     });
     
-
+//need to set height & width of divs to decrease the size 
+//currently mousingover anywhere below the search button makes cow light up
     $("div").mouseover(function(){
         $(this).fadeTo("slow", 1);
 
