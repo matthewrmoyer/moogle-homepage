@@ -21,12 +21,33 @@ $( document ).ready(function() {
     });
 
     $("#dark").click(function(event){
-        document.body.style.background = "black";
+        $("#dark").html("OG Theme");
+        $("html").toggleClass("blackbackground");
+        $("body").toggleClass("blackbackground");
+
+
+
     });
 
-    $("button").click(function(event){
-    	    $("div").fadeTo("slow",0);
+  
+  $( "#og" ).click(function( event ) {
+ 
+        confirm( "Leave Moogle?" );
+ 
+    });
+
+
+
+
+
+    $(".searchbuttonwrapper").click(function(event){
+    	    $(".logo").fadeTo("slow",0);
+            $(".cow").fadeTo("slow",0);
             $("a").fadeTo("slow", 0);
+            $("h2").empty();
+            $(".searchbuttonwrapper").after("<h2>Searching....</h2>");
+            $("#searchbutton").toggleClass("aquabackground");
+            $("#searchbutton").html("Cancel");
 
 
     });
@@ -52,7 +73,11 @@ $( document ).ready(function() {
         $(this).fadeTo("fast", .5);
     });
 
-  
+  $("#star1").click(function(event){
+        document.body.style.background = "black";
+    });
+
+
 
 
 
